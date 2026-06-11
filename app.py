@@ -93,14 +93,14 @@ if st.button('predict probability'):
 
     col1,col2 = st.columns(2)
 
-with col1:
-    st.metric(
+    with col1:
+        st.metric(
         label=Batting_team,
         value=f"{win}%"
     )
 
-with col2:
-    st.metric(
+    with col2:
+        st.metric(
         label=Bowling_team,
         value=f"{loss}%"
     )
